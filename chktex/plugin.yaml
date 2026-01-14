@@ -1,0 +1,13 @@
+id: chktex
+version: 0.1.0
+name: chktex
+description: Run chktex on .tex files
+tools:
+- id: chktex
+  version: 0.1.0
+  name: chktex
+  entry:
+  type: script
+  path: runner.sh
+  include:
+  - "**/*.tex"
